@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Times New Roman', Times, sans-serif
+}
+
+header {
+    background-image: url("../images/bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: fill;
+    color: #fff;
+}
+
+/* universal styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    z-index: 31;
+}
+
+.logo {
+    position: relative;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 100px;
+    top: -45px;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.last-menu {
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+/* footer style */
+footer {
+    background-image: url('./images/Union\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 230px;
+    padding: 40px;
+}
+
+footer>.col {
+    margin-top: 50px !important;
+}
+
+footer .tiny {
+    margin-top: 50px;
+}
+
+footer .tiny h4 {
+    font-size: 23px;
+}
+
+footer .tiny h6 {
+    font-size: 10px;
+    padding: 0 4px;
+    letter-spacing: 3px;
+    margin-top: -12px;
+
+}
+
+footer .tiny p {
+    font-size: 12px;
+    line-height: 0.5rem;
+}
+
+footer .put {
+    margin-top: 55px;
+}
+
+footer .put input {
+    border: 3px solid#E0B973;
+}
+
+footer .put button {
+    border: none;
+    background: #E0B973;
+    margin-left: -3.5px;
+    padding: 3px 15px;
+}
+
+footer .put button:hover {
+    background: #ad8a49;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+/* end of footer */
+
+#showcase {
+    margin-top: 100px;
+}
+
+#showcase .write {
+    margin-top: -30px;
+}
+
+#showcase .big,
+.midi {
+    font-size: 40px;
+}
+
+#showcase .midi {
+    letter-spacing: 10px;
+    margin-top: -10px;
+}
+
+#showcase .bigger {
+    font-size: 120px;
+}
+
+.cont,
+.cont .fas {
+    text-align: center;
+    font-size: 18px;
+}
+
+#btn {
+    text-align: center;
+}
+
+.row img {
+    width: 550px;
+    height: auto;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    background: #E0B973 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+}
+
+.btn:hover {
+    background: #bb9959 !important;
+    color: #fff !important;
+    transition: 0.2s ease-in;
+}
+
+
+.p-tag {
+    text-align: center;
+    margin: 30px;
+}
+
+.p-tag p {
+    font-weight: 700;
+    color: #14274A;
+    font-size: 20px;
+
+}
+
+.heading {
+    color: #14274A;
+    border-left: 2px solid #14274A;
+    padding-left: 20px;
+    box-shadow: 0px 0px 0px -3px #14274A;
+}
+
+#testimonials .testimony {
+    text-align: center;
+    margin: 50px 0;
+    color: #14274A;
+}
+
+#testimonials .testimony .sm {
+    font-size: 13px;
+}
+
+#testimonials .testimony .fas {
+    font-size: 25px;
+    background: #E0B973;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
